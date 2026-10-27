@@ -1,0 +1,88 @@
+{
+  "checkpoint": "/remote-home/yanglansong/feature_memory/thu_best_checkpoint.pth",
+  "sha256": "5a7f82e8f2e1d0e855d1a84690d41b035ff0677a9b97943ee2ecac83a94b87e7",
+  "size_bytes": 7433269,
+  "metadata": {
+    "epoch": 156,
+    "acc": 47.917,
+    "best_test_acc": 47.917,
+    "best_train_acc": 99.944,
+    "best_test_loss": 2.967,
+    "best_train_loss": 1.901
+  },
+  "state_tensors": 168,
+  "all_finite": true,
+  "classifier_shape": [
+    50,
+    256
+  ],
+  "v2_comparison": {
+    "missing_keys": 152,
+    "unexpected_keys": 152,
+    "shape_mismatches": {
+      "embed_dim.net.0.weight": {
+        "checkpoint": [
+          64,
+          6,
+          1
+        ],
+        "v2": [
+          32,
+          3,
+          1
+        ]
+      },
+      "embed_dim.net.0.bias": {
+        "checkpoint": [
+          64
+        ],
+        "v2": [
+          32
+        ]
+      },
+      "embed_dim.net.1.running_mean": {
+        "checkpoint": [
+          64
+        ],
+        "v2": [
+          32
+        ]
+      },
+      "embed_dim.net.1.running_var": {
+        "checkpoint": [
+          64
+        ],
+        "v2": [
+          32
+        ]
+      },
+      "embed_dim.net.1.weight": {
+        "checkpoint": [
+          64
+        ],
+        "v2": [
+          32
+        ]
+      },
+      "embed_dim.net.1.bias": {
+        "checkpoint": [
+          64
+        ],
+        "v2": [
+          32
+        ]
+      }
+    }
+  },
+  "log_match": {
+    "epoch_one_based": 157,
+    "test_window_accuracy_percent": 47.917,
+    "test_sequence_accuracy_percent": 59.479554
+  },
+  "notes": [
+    "pointmlp.txt is a training log, not an architecture specification",
+    "checkpoint epoch=156 matches log epoch157 assuming zero-based save",
+    "optimizer stored momentum buffers and SGD parameter groups despite log Namespace optimizer=Adam",
+    "no dataset split manifest or class-name map embedded; dataset provenance is user-supplied"
+  ]
+}

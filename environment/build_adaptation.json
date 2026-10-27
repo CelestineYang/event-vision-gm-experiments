@@ -1,0 +1,7 @@
+{
+  "file": "mamba_build/setup.py",
+  "before": "compute_89/sm_89",
+  "after": "compute_86/sm_86",
+  "reason": "RTX 3090 target",
+  "model_python_unchanged": true
+}

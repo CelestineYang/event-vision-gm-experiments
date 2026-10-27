@@ -1,0 +1,32 @@
+{
+  "status": "audit_complete_protocol_pending",
+  "test_recordings": 2704,
+  "old_covered": 2555,
+  "omitted": 149,
+  "confirmed_raw_empty": 27,
+  "recoverable_nonempty": 122,
+  "user_decision": "Audit only for now; empty-recording scoring remains undecided",
+  "candidate_rules": {
+    "keep_original_split": true,
+    "keep_original_training": true,
+    "restore_low_event_test_windows": true,
+    "remove_test_video_40_window_cap": true,
+    "short_recording": "whole real event stream in one fixed 1-second projection interval; no fabricated events",
+    "empty_recording": "pending user decision; retain identity in coverage report",
+    "timestamp_anomalies": "pending; do not silently unwrap, reorder differently, compress gaps, truncate or sample windows"
+  },
+  "concerns": [
+    "63 omitted nonempty recordings have backward timestamp pairs in raw files",
+    "Removing the cap while preserving old stable-sorted timestamps yields 295768 nonempty full windows among omitted videos, plus 2 short-recording fallbacks; old test has 27384 windows",
+    "Empty time intervals do not contain model input; audit separately rather than fabricate points",
+    "149 omitted videos are absent from bundled EventStore; 122 nonempty inputs require separate supplementary storage sourced from raw ZIP",
+    "Do not claim full test coverage from equality to filtered window_manifest alone"
+  ],
+  "proposed_artifacts": [
+    "separate supplemental event store and test manifest",
+    "all-2704 video roster with explicit per-video status",
+    "coverage assertions against original video_splits.csv",
+    "historical filtered evaluation and complete evaluation reported separately"
+  ],
+  "execution": "No test protocol change, training, or full evaluation launched"
+}

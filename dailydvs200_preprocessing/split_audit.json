@@ -1,0 +1,37 @@
+{
+  "train": {
+    "count": 14773,
+    "unique_files": 14773,
+    "missing_raw": 0,
+    "official_sha256": "ee5551c09cd4c7e7f14b9df7369b60a3689d03d67661bc4e2f8c8772c8c8949b",
+    "local_count": 14773,
+    "exact_order_and_labels_match": true,
+    "set_and_labels_match": true
+  },
+  "test": {
+    "count": 4093,
+    "unique_files": 4093,
+    "missing_raw": 0,
+    "official_sha256": "e423d7c6143b3b907007a8931fe02730a1754f175e1e3644394badb813fa2a0f",
+    "local_count": 4093,
+    "exact_order_and_labels_match": true,
+    "set_and_labels_match": true
+  },
+  "val": {
+    "count": 3735,
+    "unique_files": 3735,
+    "missing_raw": 0,
+    "official_sha256": "f1f27047d2944a76bcf29d06eb26c5512e7a19e6d25751ba63aaf88002831e05"
+  },
+  "overlaps": {
+    "train_test": 0,
+    "train_val": 0,
+    "test_val": 555
+  },
+  "selection_protocol": {
+    "training": "official train",
+    "selection": "official test NLL",
+    "validation": "kept separate, unused",
+    "independent_test": false
+  }
+}

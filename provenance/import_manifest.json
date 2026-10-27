@@ -1,0 +1,920 @@
+{
+  "captured_utc": "2026-10-27T12:17:28.460561+00:00",
+  "files": [
+    {
+      "path": "feature_memory/gcstr_representations.py",
+      "source": "/remote-home/yanglansong/feature_memory/gcstr_representations.py",
+      "sha256": "1d08ed931ed596b6298267a6ac3063e6a6661690182b5978abc76e5fee2c9094"
+    },
+    {
+      "path": "feature_memory/eventmamba_encoder.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_encoder.py",
+      "sha256": "73b2fdfb71869734f70d25d2d0fc016072655e3f096e1b683d19bf3f900830de"
+    },
+    {
+      "path": "feature_memory/thu_chl_sequence_dataset.py",
+      "source": "/remote-home/yanglansong/feature_memory/thu_chl_sequence_dataset.py",
+      "sha256": "163d7fd4781146c0f8676976da359447f7499f6a069af25f13853505f615cef6"
+    },
+    {
+      "path": "feature_memory/gcstr_feature_memory_fusion.py",
+      "source": "/remote-home/yanglansong/feature_memory/gcstr_feature_memory_fusion.py",
+      "sha256": "2b60d1315364c684e5e5cd76e78876782909b2d33d5cdba106cf5538492fba93"
+    },
+    {
+      "path": "feature_memory/compare_three_four_gpu.py",
+      "source": "/remote-home/yanglansong/feature_memory/compare_three_four_gpu.py",
+      "sha256": "907be4193c666c68df271f18b1e0740b8cff953ced3e8f8aee9186db34a71ac1"
+    },
+    {
+      "path": "feature_memory/eventmamba_v2_layers.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v2_layers.py",
+      "sha256": "d94873e429ea18d42f7f36b762120b8df7a9e5a455cb839ff6e86dcb7fed18a3"
+    },
+    {
+      "path": "feature_memory/thu_chl_identity_audit.json",
+      "source": "/remote-home/yanglansong/feature_memory/thu_chl_identity_audit.json",
+      "sha256": "ac1eea27155ffc090c27127a31c937589773bcfa83c24bbca0fc04314d30aabe"
+    },
+    {
+      "path": "feature_memory/FEATURE_GATE_MEMORY_RUNBOOK.md",
+      "source": "/remote-home/yanglansong/feature_memory/FEATURE_GATE_MEMORY_RUNBOOK.md",
+      "sha256": "b3eedeeb7276e9159ac9959ea7ac760110e49e8807d0e6c2c2fd0a175b8080e1"
+    },
+    {
+      "path": "feature_memory/train_feature_memory_ddp.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_feature_memory_ddp.py",
+      "sha256": "45677d6ec8768454d74df9ea552fb3bf9f88ad9bfef62b026e5814bd57aef7fa"
+    },
+    {
+      "path": "feature_memory/gesture_identity_audit.json",
+      "source": "/remote-home/yanglansong/feature_memory/gesture_identity_audit.json",
+      "sha256": "fc167d15c4c5a8b85354dc32bfbf762c23ff47b52564f8f3de9bb763abb7a0b6"
+    },
+    {
+      "path": "feature_memory/train_gesture_gm_ddp.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_gesture_gm_ddp.py",
+      "sha256": "b5dee75f498a585428fa427558884d07da5532e2949ee083c284a27f8980fe76"
+    },
+    {
+      "path": "feature_memory/gesture_sequence_dataset.py",
+      "source": "/remote-home/yanglansong/feature_memory/gesture_sequence_dataset.py",
+      "sha256": "b73b9286176d9d53334381d81b94972e93417f385fab519aa2fa7f5f27b4d60c"
+    },
+    {
+      "path": "feature_memory/prepare_environment.py",
+      "source": "/remote-home/yanglansong/feature_memory/prepare_environment.py",
+      "sha256": "af0523238e8d18f012e73c3a10a887e3bf21978cd76500b7858e3294aff10772"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_layers.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_layers.py",
+      "sha256": "a607c9cddc7f65c7a1bfed51157a70f47cca93809d2f93ef6b01628d8bb08b2a"
+    },
+    {
+      "path": "feature_memory/secnet_encoder.py",
+      "source": "/remote-home/yanglansong/feature_memory/secnet_encoder.py",
+      "sha256": "a3dcf0b2ff28bf909f2bd5e6f7923d3f6e38c3b506f566d6f7bcf1adcf4f5682"
+    },
+    {
+      "path": "feature_memory/ucf101_event_store.py",
+      "source": "/remote-home/yanglansong/feature_memory/ucf101_event_store.py",
+      "sha256": "11fc7531d2f0eed0abe4d2d10f454d605e682a33eadc5788ce03d019d9b6e697"
+    },
+    {
+      "path": "feature_memory/diagnose_gesture_checkpoint.py",
+      "source": "/remote-home/yanglansong/feature_memory/diagnose_gesture_checkpoint.py",
+      "sha256": "f948e81e710a69731bb7c94f1ebd7742d640fceed87227a74a3676900ff1f645"
+    },
+    {
+      "path": "feature_memory/complete_test_plan.json",
+      "source": "/remote-home/yanglansong/feature_memory/complete_test_plan.json",
+      "sha256": "a43b274d098ad9943be392437d2d9187ca3870f88f423244054c793ce67c60b2"
+    },
+    {
+      "path": "feature_memory/train_ucf.txt",
+      "source": "/remote-home/yanglansong/feature_memory/train_ucf.txt",
+      "sha256": "8a8de17c3ff7f7f3c5637cf6302569b67d42100032a606c5ad8c79cf33252010"
+    },
+    {
+      "path": "feature_memory/run_three_smokes.py",
+      "source": "/remote-home/yanglansong/feature_memory/run_three_smokes.py",
+      "sha256": "a5e7b16f1da9031b1d9bf100c08713a80aee4ad44f928b891297312c54670021"
+    },
+    {
+      "path": "feature_memory/ucf101_window_data.py",
+      "source": "/remote-home/yanglansong/feature_memory/ucf101_window_data.py",
+      "sha256": "58a6d7aae1fb5f980020bef39aa974b283534961bbbcdc97065bfe6f36f1ce93"
+    },
+    {
+      "path": "feature_memory/train_gesture_gm.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_gesture_gm.py",
+      "sha256": "ed7512e25a2486ec6baef2aac7dcc6669a0b35f41491cccf3f1699c706a6fdfe"
+    },
+    {
+      "path": "feature_memory/THU_CHL_GM_RUNBOOK.md",
+      "source": "/remote-home/yanglansong/feature_memory/THU_CHL_GM_RUNBOOK.md",
+      "sha256": "e73371bd5ee165fc392cf26d4e9052c4d190db53e3819325e0397761445b3fd8"
+    },
+    {
+      "path": "feature_memory/recover_environment.py",
+      "source": "/remote-home/yanglansong/feature_memory/recover_environment.py",
+      "sha256": "6b67e851b3e7a5df6e4157aa2f3ca6a341885c04c8d1d38f23ecdc5453b32110"
+    },
+    {
+      "path": "feature_memory/thu_chl_batch16_benchmark.json",
+      "source": "/remote-home/yanglansong/feature_memory/thu_chl_batch16_benchmark.json",
+      "sha256": "0cc2ff9e4fafc5c6fb5b9cf7fc5fd61f352a36424a4a817dfe3a6448f1ec4f2b"
+    },
+    {
+      "path": "feature_memory/evaluate_gcstr_feature_memory.py",
+      "source": "/remote-home/yanglansong/feature_memory/evaluate_gcstr_feature_memory.py",
+      "sha256": "fcb49bdaa6a7a93ce9b09400f885313f1cc10d9acc631f5d075400a5231f3f53"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_pretrained.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_pretrained.py",
+      "sha256": "035e13feb35c95f920cdcf0777f786629deaab5adbdb0d86e0015cc523b9f239"
+    },
+    {
+      "path": "feature_memory/gcstr_video_sequence_dataset.py",
+      "source": "/remote-home/yanglansong/feature_memory/gcstr_video_sequence_dataset.py",
+      "sha256": "dfc57068d95b0e1b1076c5bb010681ea23c5507eb82a02b686686277c5f38381"
+    },
+    {
+      "path": "feature_memory/train_gcstr_feature_memory.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_gcstr_feature_memory.py",
+      "sha256": "80ae3eb2ec249d1d21648a2dcc9646ef9024d124eed55f8df8be5dcfa17b9cc9"
+    },
+    {
+      "path": "feature_memory/diagnose_gesture_labels.py",
+      "source": "/remote-home/yanglansong/feature_memory/diagnose_gesture_labels.py",
+      "sha256": "a276217c01ef3aa66fd5a02a2ce647590507963e17f614e84302e74e823a60e8"
+    },
+    {
+      "path": "feature_memory/thu_chl_radius_audit.json",
+      "source": "/remote-home/yanglansong/feature_memory/thu_chl_radius_audit.json",
+      "sha256": "5cb2c8aef479bf1ab45b59e59e2900754946ab45a2b84006dd1a4b73bde44d2b"
+    },
+    {
+      "path": "feature_memory/gesture_fusion.py",
+      "source": "/remote-home/yanglansong/feature_memory/gesture_fusion.py",
+      "sha256": "7e4cabf79e82c1efe1b7db535fc85e0ecbd5a3d27376da0900f7b32da4ff07a4"
+    },
+    {
+      "path": "feature_memory/evaluate_gesture_point.py",
+      "source": "/remote-home/yanglansong/feature_memory/evaluate_gesture_point.py",
+      "sha256": "089a18efd6cc512845bf2341444808fec64fcad5233b7d0c213738100c527f8b"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_model.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_model.py",
+      "sha256": "902e747fe1223fa3a731712671215d51db9e126b898c8d13b57003d418d095cd"
+    },
+    {
+      "path": "feature_memory/GESTURE_GM_RUNBOOK.md",
+      "source": "/remote-home/yanglansong/feature_memory/GESTURE_GM_RUNBOOK.md",
+      "sha256": "1d8cec78167bdc28b1f6f081ada952f67e445860170ea0907c51be897bbf640f"
+    },
+    {
+      "path": "feature_memory/ucf101_fusion_window_data.py",
+      "source": "/remote-home/yanglansong/feature_memory/ucf101_fusion_window_data.py",
+      "sha256": "2a09eb7a064b0371f110fe3c202a20ee45b7ee97e763ffd0ba582454b5a95945"
+    },
+    {
+      "path": "feature_memory/train_thu_chl_gm.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_thu_chl_gm.py",
+      "sha256": "212bd080e43c43dbf287ee8326f59880db1588dc314e1039d86978e71e022f1b"
+    },
+    {
+      "path": "feature_memory/complete_test_audit.json",
+      "source": "/remote-home/yanglansong/feature_memory/complete_test_audit.json",
+      "sha256": "40b3661f37a4e7a407249d2f6ae32fd508cb1bdd345b683fde326e718bbe701d"
+    },
+    {
+      "path": "feature_memory/benchmark_three_gpu.py",
+      "source": "/remote-home/yanglansong/feature_memory/benchmark_three_gpu.py",
+      "sha256": "1e73c69f85d6f4dd8083bda603a20d6aba43690a4835978874e627010747838d"
+    },
+    {
+      "path": "feature_memory/prepare_feature_migration_config.py",
+      "source": "/remote-home/yanglansong/feature_memory/prepare_feature_migration_config.py",
+      "sha256": "d4173f5dbb5dcbcb9ed7c55f0f68e2594f59933e252f2c0b7a58c643e45ddf3a"
+    },
+    {
+      "path": "feature_memory/benchmark_video_batch.py",
+      "source": "/remote-home/yanglansong/feature_memory/benchmark_video_batch.py",
+      "sha256": "777de34c0bdf56ca8d8001759ddfba947bcff93c767b763460ec8038d7e5fd46"
+    },
+    {
+      "path": "feature_memory/switch_gm_after_epoch18.py",
+      "source": "/remote-home/yanglansong/feature_memory/switch_gm_after_epoch18.py",
+      "sha256": "3eee579c3ef486b3096efe62e90ba2f5a1861f635bd958ecffd1fe521a672a21"
+    },
+    {
+      "path": "feature_memory/train_thu_chl_gm_ddp.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_thu_chl_gm_ddp.py",
+      "sha256": "f9af7e4e4197eb3520df125cfaa279538d1f6ba70451943e2bd3733ee28e92de"
+    },
+    {
+      "path": "feature_memory/test_gesture_gm_ddp.py",
+      "source": "/remote-home/yanglansong/feature_memory/test_gesture_gm_ddp.py",
+      "sha256": "33515b05b387c99e516a4b82f8f515abb45142e38e594b4939c03cb616d16639"
+    },
+    {
+      "path": "feature_memory/gcstr_eventmamba_fusion.py",
+      "source": "/remote-home/yanglansong/feature_memory/gcstr_eventmamba_fusion.py",
+      "sha256": "349f98e2bf430930ff60fa6654006f997ed1fed0ee0f5cafada50087a3d70e25"
+    },
+    {
+      "path": "feature_memory/audit_gesture_protocol.py",
+      "source": "/remote-home/yanglansong/feature_memory/audit_gesture_protocol.py",
+      "sha256": "32414db6d53a128280a74c386603c8eec9879f674f712bf9fa372e7ceba2a3b2"
+    },
+    {
+      "path": "feature_memory/train_ucf101_pretrained_fusion.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_ucf101_pretrained_fusion.py",
+      "sha256": "cbddc9dd6e970d61fbf37de12c2d07348fd7efa56ef84e363ce00d63e0df999c"
+    },
+    {
+      "path": "feature_memory/thu_checkpoint_audit.json",
+      "source": "/remote-home/yanglansong/feature_memory/thu_checkpoint_audit.json",
+      "sha256": "245bacc4f21ae5c5c2fad2ea0b550c18e9e9aa143f059a4c4f565b800aa5931c"
+    },
+    {
+      "path": "feature_memory/gesture_eventmamba_model.py",
+      "source": "/remote-home/yanglansong/feature_memory/gesture_eventmamba_model.py",
+      "sha256": "f62c353c1b653d4e81496e0ade3d22f99a20e8a951f733becbe56b25248d71aa"
+    },
+    {
+      "path": "feature_memory/test_feature_memory_ddp.py",
+      "source": "/remote-home/yanglansong/feature_memory/test_feature_memory_ddp.py",
+      "sha256": "2d72650f299bdb7c93b4a69530ff349d31df4fe0248efb1fdb56977a4a03b466"
+    },
+    {
+      "path": "feature_memory/thu_chl_fusion.py",
+      "source": "/remote-home/yanglansong/feature_memory/thu_chl_fusion.py",
+      "sha256": "c84de0fbe46b52644593a810e5b9230937baad3d81dd5bb1f5d33a10d58d8f57"
+    },
+    {
+      "path": "feature_memory/eventmamba_v2_model.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v2_model.py",
+      "sha256": "4dc39cca938ce1813b3228439bbf181f65a1edb13a7e400e3ea005e01e993c28"
+    },
+    {
+      "path": "feature_memory/eventmamba_v2_pretrained.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v2_pretrained.py",
+      "sha256": "70f3cdc283bdf8e8935402fe54143612f90114a7a8fcb06566c99d2220cf441f"
+    },
+    {
+      "path": "feature_memory/gcstr_secnet_fusion.py",
+      "source": "/remote-home/yanglansong/feature_memory/gcstr_secnet_fusion.py",
+      "sha256": "55ff121257ff78075d9705f6fad0e035fa221c958ef6e81f9fa88665e092d33b"
+    },
+    {
+      "path": "feature_memory/gcstr_augmentation.py",
+      "source": "/remote-home/yanglansong/feature_memory/gcstr_augmentation.py",
+      "sha256": "fc15e5b61618b5fdf4a0f3f656bb53e4dfa4b45d797d13974a2d7225ecbacca2"
+    },
+    {
+      "path": "feature_memory/test_gcstr_feature_memory.py",
+      "source": "/remote-home/yanglansong/feature_memory/test_gcstr_feature_memory.py",
+      "sha256": "06e8e627db125392d4de7d9cad8bcc756b3e4cf28d03f05ca3da582bcbd5f25c"
+    },
+    {
+      "path": "feature_memory/train_ucf101_window_gcstr.py",
+      "source": "/remote-home/yanglansong/feature_memory/train_ucf101_window_gcstr.py",
+      "sha256": "d0d65342115fdf83d511e1a1bfca6d154b6727ef9d2154a75bbe68c6538c65ce"
+    },
+    {
+      "path": "feature_memory/gesture_eventmamba_pretrained.py",
+      "source": "/remote-home/yanglansong/feature_memory/gesture_eventmamba_pretrained.py",
+      "sha256": "656000f7587b51f2cb1723091f77306f6f02ad137da7dd45d20352cb06b02bb5"
+    },
+    {
+      "path": "feature_memory/test_ucf(1).txt",
+      "source": "/remote-home/yanglansong/feature_memory/test_ucf(1).txt",
+      "sha256": "03e82492b2bd4a92d7b08845b56d4fb6a9f42808bdcb75c51872d99d7d32c546"
+    },
+    {
+      "path": "feature_memory/gcstr_models.py",
+      "source": "/remote-home/yanglansong/feature_memory/gcstr_models.py",
+      "sha256": "04b96465ae2d8f35155bfe7954f5ed278e3b7cfc9618e7ccbeb7fd8cddabc2a3"
+    },
+    {
+      "path": "feature_memory/benchmark_thu_chl_ddp.py",
+      "source": "/remote-home/yanglansong/feature_memory/benchmark_thu_chl_ddp.py",
+      "sha256": "7bc1f2fbfb2d816e110caa3d03215416336ad3b2e04fc926aed42a4bee9add67"
+    },
+    {
+      "path": "feature_memory/test_gesture_gm.py",
+      "source": "/remote-home/yanglansong/feature_memory/test_gesture_gm.py",
+      "sha256": "e7ef7aa292c41dd3e923a984441ef02ceb199962d26ddb49589a2f743ceed756"
+    },
+    {
+      "path": "feature_memory/ucf101_pretrained_fusion.py",
+      "source": "/remote-home/yanglansong/feature_memory/ucf101_pretrained_fusion.py",
+      "sha256": "47f245b7d113c95b90f9bc5fae0c28f3a1650d7ef3caee71e257714051a3c5c4"
+    },
+    {
+      "path": "feature_memory/test_thu_chl_gm.py",
+      "source": "/remote-home/yanglansong/feature_memory/test_thu_chl_gm.py",
+      "sha256": "cf2b5d4a031d5c11218234c907dc24fde3934398d464bac25590e2be1a577047"
+    },
+    {
+      "path": "feature_memory/thu_chl_render.py",
+      "source": "/remote-home/yanglansong/feature_memory/thu_chl_render.py",
+      "sha256": "55b0fc23bdfd9d797d78fedb4d224ad5855d56bec15288cebe0318d78ad5fb48"
+    },
+    {
+      "path": "feature_memory/CODEX_FEATURE_GATE_MEMORY_JOINT_TASK.md",
+      "source": "/remote-home/yanglansong/feature_memory/CODEX_FEATURE_GATE_MEMORY_JOINT_TASK.md",
+      "sha256": "67fdc8859cc004393cf6f9e1a80a034fdccf2ab1683af767360bf4950b3b632c"
+    },
+    {
+      "path": "feature_memory/audit_complete_test.py",
+      "source": "/remote-home/yanglansong/feature_memory/audit_complete_test.py",
+      "sha256": "d739a1df14a8c70a2b28ae199f38d4082d66f58a44883804bbe4e0befa11363a"
+    },
+    {
+      "path": "feature_memory/eventmamba_v2_upstream/LICENSE",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v2_upstream/LICENSE",
+      "sha256": "eab4b71fba29508dc3459a1b1774a2456365475c666be2de6e35c8ddb68b3156"
+    },
+    {
+      "path": "feature_memory/configs/thu_chl_gm.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/thu_chl_gm.json",
+      "sha256": "42f771888dbdfcc5f1b57c9f20b0feb9cb0c6bca6812aeb88098637f20b46932"
+    },
+    {
+      "path": "feature_memory/configs/gesture_gm_ddp2.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/gesture_gm_ddp2.json",
+      "sha256": "89e547055804cbce41e02dbc50b361dabff5222ec4d128b56b6329609b263bfd"
+    },
+    {
+      "path": "feature_memory/configs/thu_chl_gm_ddp3.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/thu_chl_gm_ddp3.json",
+      "sha256": "6a9f4aaf52ed412138628c2cf35de541f7c80be33a3c93b70d434a06979dedca"
+    },
+    {
+      "path": "feature_memory/configs/gesture_gm_ddp3.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/gesture_gm_ddp3.json",
+      "sha256": "61f359e69a78c8aae174293285e20d399d581fa5196c6656e91a0c5d3f100c9c"
+    },
+    {
+      "path": "feature_memory/configs/gesture_gm_smoke.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/gesture_gm_smoke.json",
+      "sha256": "89732036c3afb5d90577ec46575b791160eb32af8f69285148892767b22be703"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory_target/GM.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory_target/GM.json",
+      "sha256": "6846bc216200061ca933a13f83e509bb7d26ce218e8ecf8cfcea54f037ee8b10"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory_target/G.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory_target/G.json",
+      "sha256": "bf929b30f35e658bd3c8e667ca6cc62ec50726c6b69b88a9af70a6190ec85b12"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory_target/GM_ddp.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory_target/GM_ddp.json",
+      "sha256": "d9791c081c85ad5c62358bc9ac01b3b7dd3642b3f4dae71b89c5eb83269cba1b"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory_target/B.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory_target/B.json",
+      "sha256": "d5f124fae8ef5f6268e856866615b7ce23cef0a49cf272ef14f67dd905590e75"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory_target/GM_ddp_validation.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory_target/GM_ddp_validation.json",
+      "sha256": "9625c2adb1f26ea64610f37cc2fc1978f0584ec19698f35f9960dd36921fb52f"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory/GM.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory/GM.json",
+      "sha256": "51dc3a7d2239985d3790659085c0fbc13f168a40cddc2fc7d1204d7d51ea4c60"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory/G.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory/G.json",
+      "sha256": "e3f2418d3c1a8db60b4b355537411c00bf9cc6316f78d6b1c2ae3293567fe7f7"
+    },
+    {
+      "path": "feature_memory/configs/feature_memory/B.json",
+      "source": "/remote-home/yanglansong/feature_memory/configs/feature_memory/B.json",
+      "sha256": "104beabc0364305edc6013264b87abfd5dfe6dd267544051f82b6df1b8dec86c"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_upstream/revision.json",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_upstream/revision.json",
+      "sha256": "d0df0c1024bf0fb41310d45c9def066748d6c567cf7d196e3640930d73a2da4f"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_upstream/LICENSE",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_upstream/LICENSE",
+      "sha256": "eab4b71fba29508dc3459a1b1774a2456365475c666be2de6e35c8ddb68b3156"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_upstream/README.md",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_upstream/README.md",
+      "sha256": "4ef86cca2cc24b6fc114638a0f787fea252bfa2eacd88583151bf29712b3a728"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_upstream/models/eventmamba_v2.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_upstream/models/eventmamba_v2.py",
+      "sha256": "7a21c3b40383d455b79c8c2c92d3dcf83e8d4bc59759896cb2ca86b0228fda78"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_upstream/models/eventmamba_v1.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_upstream/models/eventmamba_v1.py",
+      "sha256": "ace29618525be2943d0046609d918dc3123874fa272d702d9101b85f41f9a164"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_upstream/models/modules.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_upstream/models/modules.py",
+      "sha256": "e441e77965bc80137e0489a02ea0b7af9fb3df7afea4278aece99ce4bc526866"
+    },
+    {
+      "path": "feature_memory/eventmamba_v1_upstream/models/mamba_layer.py",
+      "source": "/remote-home/yanglansong/feature_memory/eventmamba_v1_upstream/models/mamba_layer.py",
+      "sha256": "6a5e280bc8ec5cafc6bfcfec09583cc1fe77b1d31bd81d419a1cd5c65b2e7f6b"
+    },
+    {
+      "path": "thu_preprocessing/evaluate_daily_complete.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/evaluate_daily_complete.py",
+      "sha256": "b50c8c990fda1c16e66f18a54ebd533f5410b08decf1cca1435860cab07ea447"
+    },
+    {
+      "path": "thu_preprocessing/gcstr_representations.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/gcstr_representations.py",
+      "sha256": "4501e870aa2894c3ce7fe3a8a693676f90d0b4f27ce366c84421852b9c18cdf9"
+    },
+    {
+      "path": "thu_preprocessing/test_training.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/test_training.py",
+      "sha256": "ca004dbe26c60f0f9aaf6a4a7e8ab368278493a5836e01c355a0e6ad237458fc"
+    },
+    {
+      "path": "thu_preprocessing/prepare_dailydvs200.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/prepare_dailydvs200.py",
+      "sha256": "04856cb30de9026a834720e7e3f59e6f08ef174dfc44b69406b15bbcd48d0957"
+    },
+    {
+      "path": "thu_preprocessing/test_daily.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/test_daily.py",
+      "sha256": "8803b86789924079e13047ce0a61face6662ade9af03cf4139c9edc2d0f1dfd3"
+    },
+    {
+      "path": "thu_preprocessing/train_gcstr.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/train_gcstr.py",
+      "sha256": "dbf400a8bca3656ec6b5744fa72b242032ea0cccacee0d122f27900a3c399297"
+    },
+    {
+      "path": "thu_preprocessing/evaluate_thu_all_windows.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/evaluate_thu_all_windows.py",
+      "sha256": "4388c038c75595d034746ff786b33063ee9dd2bde7858fb300453380edc8cd0d"
+    },
+    {
+      "path": "thu_preprocessing/render_frames.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/render_frames.py",
+      "sha256": "55b0fc23bdfd9d797d78fedb4d224ad5855d56bec15288cebe0318d78ad5fb48"
+    },
+    {
+      "path": "thu_preprocessing/test_preprocessing.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/test_preprocessing.py",
+      "sha256": "22c73700d4000114ae16604c241e63a374a0f48117f672e2de5c2eed7ef45900"
+    },
+    {
+      "path": "thu_preprocessing/prepare_daily.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/prepare_daily.py",
+      "sha256": "e835cdbd1ba6d4285aa2a75f353be4bc46c2a6c107396df78fb7e3b078ecb5f4"
+    },
+    {
+      "path": "thu_preprocessing/test_dailydvs200.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/test_dailydvs200.py",
+      "sha256": "93da69ff085b9988d05abef1893b33733a72c21d88382db0f525faed04101c5f"
+    },
+    {
+      "path": "thu_preprocessing/test_dvsgesture.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/test_dvsgesture.py",
+      "sha256": "f67919bba48d72246ba5b420337dccd311d9c8fa247e4733a693dddc5aa7cd05"
+    },
+    {
+      "path": "thu_preprocessing/gcstr_augmentation.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/gcstr_augmentation.py",
+      "sha256": "f15d86a23a8ffdf88e274580b4a06764edd1ded7c19b5b943d5765161d1701dc"
+    },
+    {
+      "path": "thu_preprocessing/prepare_chl.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/prepare_chl.py",
+      "sha256": "efb8c1a2c7657b86841e4255ad6f3f97bc9fd5a302a456dc68efc085e9826156"
+    },
+    {
+      "path": "thu_preprocessing/README.md",
+      "source": "/remote-home/yanglansong/thu_preprocessing/README.md",
+      "sha256": "05bfc046b7c46d2bede8ea64279920c960ad5067c0e171837fea6eb79e1537a0"
+    },
+    {
+      "path": "thu_preprocessing/gcstr_models.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/gcstr_models.py",
+      "sha256": "1594a5180af53a785340c41195cfe3f1199c3c72edb04a0fe08bede75188cce1"
+    },
+    {
+      "path": "thu_preprocessing/prepare_dvsgesture.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/prepare_dvsgesture.py",
+      "sha256": "968707616370785d5768d95710f114e8f0bba5808cccb8227a64606e50ce5803"
+    },
+    {
+      "path": "thu_preprocessing/legacy_chl_run1/gcstr_representations.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_representations.py",
+      "sha256": "4501e870aa2894c3ce7fe3a8a693676f90d0b4f27ce366c84421852b9c18cdf9"
+    },
+    {
+      "path": "thu_preprocessing/legacy_chl_run1/train_gcstr.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/train_gcstr.py",
+      "sha256": "49510358fcacf1e84f6526865fa9ac18226a7a41903e90c80994d02c3b19f3cf"
+    },
+    {
+      "path": "thu_preprocessing/legacy_chl_run1/render_frames.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/render_frames.py",
+      "sha256": "01116c59419c9c577b7bc3a9764b287b16d46aa287e12e91c38e055d6a7f82c2"
+    },
+    {
+      "path": "thu_preprocessing/legacy_chl_run1/gcstr_augmentation.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_augmentation.py",
+      "sha256": "f15d86a23a8ffdf88e274580b4a06764edd1ded7c19b5b943d5765161d1701dc"
+    },
+    {
+      "path": "thu_preprocessing/legacy_chl_run1/prepare_chl.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/prepare_chl.py",
+      "sha256": "efb8c1a2c7657b86841e4255ad6f3f97bc9fd5a302a456dc68efc085e9826156"
+    },
+    {
+      "path": "thu_preprocessing/legacy_chl_run1/gcstr_models.py",
+      "source": "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_models.py",
+      "sha256": "1594a5180af53a785340c41195cfe3f1199c3c72edb04a0fe08bede75188cce1"
+    },
+    {
+      "path": "dailydvs200_preprocessing/benchmark_gcstr_ddp.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/benchmark_gcstr_ddp.py",
+      "sha256": "e2e31138157cbd0ac7e2d27e9d6ec3386205b9116c1aaa2bbd54a9237ed9f880"
+    },
+    {
+      "path": "dailydvs200_preprocessing/smoke_check.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/smoke_check.py",
+      "sha256": "f0c9c246a9a7aa35fdd0b87bbc7229f58cb3da957ce01cf05beefe073112d443"
+    },
+    {
+      "path": "dailydvs200_preprocessing/split_audit.json",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/split_audit.json",
+      "sha256": "5908c1fb78543b889eb4c3f326f045fda549c865546002c3ef01d107dc45efce"
+    },
+    {
+      "path": "dailydvs200_preprocessing/select_top1.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/select_top1.py",
+      "sha256": "a9e0358aca084b61a22dec5daaf0a543638e54cac2fb25e07edc7aed835a95d9"
+    },
+    {
+      "path": "dailydvs200_preprocessing/switch_gcstr_ddp4.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/switch_gcstr_ddp4.py",
+      "sha256": "e42d84e009947298dac897732bfe072ae23cd22c507a23cda57428e805ea7d0d"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_migration_report.json",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_migration_report.json",
+      "sha256": "bd17827d743aec18338970e4ca94acf394ccde94f2d6924800be40a6fa3fca75"
+    },
+    {
+      "path": "dailydvs200_preprocessing/README.md",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/README.md",
+      "sha256": "bce6f88794341c90a13ff1badecbe6b12ba45589ea1aff25ecf054fc3150ccc9"
+    },
+    {
+      "path": "dailydvs200_preprocessing/train_statistics.json",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/train_statistics.json",
+      "sha256": "307b47b54f82188824fda6f93e76d064f428b0a71fe54ae15daa370d97a0e8f8"
+    },
+    {
+      "path": "dailydvs200_preprocessing/test_migration.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/test_migration.py",
+      "sha256": "6949ab59534f0eb0e5afce4f45992e3f566ce7cb64b1742c2e0e57bbb9f7693f"
+    },
+    {
+      "path": "dailydvs200_preprocessing/official_splits/train.txt",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/official_splits/train.txt",
+      "sha256": "ee5551c09cd4c7e7f14b9df7369b60a3689d03d67661bc4e2f8c8772c8c8949b"
+    },
+    {
+      "path": "dailydvs200_preprocessing/official_splits/val.txt",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/official_splits/val.txt",
+      "sha256": "f1f27047d2944a76bcf29d06eb26c5512e7a19e6d25751ba63aaf88002831e05"
+    },
+    {
+      "path": "dailydvs200_preprocessing/official_splits/test.txt",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/official_splits/test.txt",
+      "sha256": "e423d7c6143b3b907007a8931fe02730a1754f175e1e3644394badb813fa2a0f"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/evaluate_daily_complete.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/evaluate_daily_complete.py",
+      "sha256": "b50c8c990fda1c16e66f18a54ebd533f5410b08decf1cca1435860cab07ea447"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/gcstr_representations.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/gcstr_representations.py",
+      "sha256": "4501e870aa2894c3ce7fe3a8a693676f90d0b4f27ce366c84421852b9c18cdf9"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/test_training.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/test_training.py",
+      "sha256": "ca004dbe26c60f0f9aaf6a4a7e8ab368278493a5836e01c355a0e6ad237458fc"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/prepare_dailydvs200.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/prepare_dailydvs200.py",
+      "sha256": "04856cb30de9026a834720e7e3f59e6f08ef174dfc44b69406b15bbcd48d0957"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/test_daily.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/test_daily.py",
+      "sha256": "8803b86789924079e13047ce0a61face6662ade9af03cf4139c9edc2d0f1dfd3"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/train_gcstr.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/train_gcstr.py",
+      "sha256": "308684f67bf8ddb23ed5665953db6e6cf08cad4773f6b8edd607893313bece6b"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/evaluate_thu_all_windows.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/evaluate_thu_all_windows.py",
+      "sha256": "4388c038c75595d034746ff786b33063ee9dd2bde7858fb300453380edc8cd0d"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/render_frames.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/render_frames.py",
+      "sha256": "55b0fc23bdfd9d797d78fedb4d224ad5855d56bec15288cebe0318d78ad5fb48"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/test_preprocessing.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/test_preprocessing.py",
+      "sha256": "22c73700d4000114ae16604c241e63a374a0f48117f672e2de5c2eed7ef45900"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/migration.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/migration.py",
+      "sha256": "26eb730279830edd1b525bf393b6010c9bcceeddf279791e046d244152deb09d"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/prepare_daily.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/prepare_daily.py",
+      "sha256": "e835cdbd1ba6d4285aa2a75f353be4bc46c2a6c107396df78fb7e3b078ecb5f4"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/test_dailydvs200.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/test_dailydvs200.py",
+      "sha256": "93da69ff085b9988d05abef1893b33733a72c21d88382db0f525faed04101c5f"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/test_dvsgesture.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/test_dvsgesture.py",
+      "sha256": "f67919bba48d72246ba5b420337dccd311d9c8fa247e4733a693dddc5aa7cd05"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/gcstr_augmentation.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/gcstr_augmentation.py",
+      "sha256": "f15d86a23a8ffdf88e274580b4a06764edd1ded7c19b5b943d5765161d1701dc"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/prepare_chl.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/prepare_chl.py",
+      "sha256": "efb8c1a2c7657b86841e4255ad6f3f97bc9fd5a302a456dc68efc085e9826156"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/gcstr_models.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/gcstr_models.py",
+      "sha256": "1594a5180af53a785340c41195cfe3f1199c3c72edb04a0fe08bede75188cce1"
+    },
+    {
+      "path": "dailydvs200_preprocessing/ddp4_code/prepare_dvsgesture.py",
+      "source": "/remote-home/yanglansong/dailydvs200_preprocessing/ddp4_code/prepare_dvsgesture.py",
+      "sha256": "968707616370785d5768d95710f114e8f0bba5808cccb8227a64606e50ce5803"
+    },
+    {
+      "path": "audit_gcstr/split_audit.json",
+      "source": "/remote-home/yanglansong/audit_gcstr/split_audit.json",
+      "sha256": "7365e0864411a20c8643c1ebae90b7986aabecd9ad2abae30c61b863aa222f15"
+    },
+    {
+      "path": "audit_gcstr/runtime_audit.json",
+      "source": "/remote-home/yanglansong/audit_gcstr/runtime_audit.json",
+      "sha256": "d8d3287a38486a9b2036c35eb4f2167e76011de31eed0d6e9fc4fee62e6c4ebd"
+    },
+    {
+      "path": "audit_gcstr/verify_runtime.py",
+      "source": "/remote-home/yanglansong/audit_gcstr/verify_runtime.py",
+      "sha256": "6376218116dfeffb02e1fd3aa3c17189ed6205a0ea6f7a5a883a93fa64c1c2bd"
+    },
+    {
+      "path": "protocols/thu_official_test.txt",
+      "source": "/remote-home/yanglansong/test.txt",
+      "sha256": "7df5c532271a69fcfa0e4a79669b1d18bbd473ae1d3d99e6832a01266204da49"
+    },
+    {
+      "path": "environment/mamba_build/setup.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/setup.py",
+      "sha256": "b0e54afe513f1920d0ef2f0f8d92dcee2ae8a41e9518a1f32daba4128cd7ec85"
+    },
+    {
+      "path": "environment/mamba_build/LICENSE",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/LICENSE",
+      "sha256": "760939b000194d04548ede6a857bbe735d1695d8422ec85955c8e2bd7f4b95c5"
+    },
+    {
+      "path": "environment/mamba_build/AUTHORS",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/AUTHORS",
+      "sha256": "e5eb51eba1fdf225e8e99afb87e315c2383d934dd9d61c0681e05617e045d145"
+    },
+    {
+      "path": "environment/mamba_build/README.md",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/README.md",
+      "sha256": "d380a3dd36878a1f9daea1a0aedea538699e18e7ddc316379299f616b384b209"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_bwd_fp32_real.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_bwd_fp32_real.cu",
+      "sha256": "142e266e024f53f41c65f8f114fbc21b1d873a262a2e9743f9965ba069eda4e9"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan.h",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan.h",
+      "sha256": "fd82ff6ac520cc250ecae5fc01a948a7cba33e977dce2a6822064664759511a1"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_bwd_fp16_complex.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_bwd_fp16_complex.cu",
+      "sha256": "cf749e40690f9c2131cfe9b23ac42da4446bc747e6fd8f1aed45124d2cd5b74b"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/uninitialized_copy.cuh",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/uninitialized_copy.cuh",
+      "sha256": "00138cc4f97dfc0bfb9a8956d54560a5627c61ec0893eebb54cf1e59c3b3a3f8"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_bwd_fp16_real.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_bwd_fp16_real.cu",
+      "sha256": "ce5a8f9bb9e485be8ca70fec63b084f908598f6a1cdd47d754290f2057ee2f61"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_bwd_bf16_complex.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_bwd_bf16_complex.cu",
+      "sha256": "d3191c1308b455c4576938a656b26a9434bb35e06746077de0dcad262d92a6c9"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_common.h",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_common.h",
+      "sha256": "e3efa8931564a7d724e1b35af877923aa7c348b8ac1aa15715a514130c531ed0"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_bwd_bf16_real.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_bwd_bf16_real.cu",
+      "sha256": "6c7c3d8fc74d46103f4cc05d273437f451945db5e92f0aba6c25dd7e8a4a59d1"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_fwd_bf16.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_fwd_bf16.cu",
+      "sha256": "a3b0256715f39866274d9c9ef7e9791d2b22c71a5efd451c384ad8211ad2d7b6"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan.cpp",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan.cpp",
+      "sha256": "7a383cb5bab14d47fecee86346ca5a0e499eac5ab791f9cd0379c70dcc5243af"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_fwd_kernel.cuh",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_fwd_kernel.cuh",
+      "sha256": "581b84ccd91833a42aff5abbf354706c25e03ff13ada04129bc964ac8ca7889c"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_bwd_kernel.cuh",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_bwd_kernel.cuh",
+      "sha256": "4aa885e6e06e2263fc995173a3088df85e9be49cfe18ef641d3c795eb191cb11"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_fwd_fp32.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_fwd_fp32.cu",
+      "sha256": "2ae10cb46816a25caa9711fd8b0aa9252763cda46f7f1765c11ca29bf57944b1"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_fwd_fp16.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_fwd_fp16.cu",
+      "sha256": "f5b32ea6a10c755032e469754adbfbb554fab562eede31d33d99f746f5991a8c"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/selective_scan_bwd_fp32_complex.cu",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/selective_scan_bwd_fp32_complex.cu",
+      "sha256": "9462ad461cde1bded09a0ef236ae4b070ccb7aadae61e27b78a3dc6e1a5a033d"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/reverse_scan.cuh",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/reverse_scan.cuh",
+      "sha256": "01e4c0960d7548d924be64850bef91cb4668a0b8d9dae732c20efa9430649326"
+    },
+    {
+      "path": "environment/mamba_build/csrc/selective_scan/static_switch.h",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/csrc/selective_scan/static_switch.h",
+      "sha256": "1eb3ebf9f2f231be1bfad83ad15612031e24980336c0019f2d742bce599f704c"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/__init__.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/__init__.py",
+      "sha256": "5e61917878c1f3275d79fc1406af736320309804e4320777a9f32ea863e9594f"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/ops/__init__.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/ops/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/ops/selective_scan_interface.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/ops/selective_scan_interface.py",
+      "sha256": "c0bb4ffb85fdbd1a0700ba27198638c25c929ad83a4ddd6f50c69357455b093f"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/ops/triton/__init__.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/ops/triton/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/ops/triton/selective_state_update.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/ops/triton/selective_state_update.py",
+      "sha256": "5e509202df8d4177c097f91071f64de05a1894766a6e363d257f5a20729d104e"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/ops/triton/layer_norm.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/ops/triton/layer_norm.py",
+      "sha256": "b7a77c2f305650382b30509d503a3536aa09fd28b6b4595d7c2160813a3f4317"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/utils/hf.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/utils/hf.py",
+      "sha256": "aa6f3a349826612bf3b310d209ebe50546bf1b2be9bcee3d5959cabfa7d235f6"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/utils/__init__.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/utils/generation.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/utils/generation.py",
+      "sha256": "90f4196eebabaff45df99ce5b9c899fb52bac776094bdfc7386733c959f02f6f"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/models/config_mamba.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/models/config_mamba.py",
+      "sha256": "2a72c1686f775b56547e39ca4406ba10148d12fd7a791c57ce2ba85126010fcd"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/models/mixer_seq_simple.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/models/mixer_seq_simple.py",
+      "sha256": "a4c3e9b981e6135a6c2790aa928c1ef21a0b24d3d982c84f59cb240bc4273dce"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/models/__init__.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/modules/__init__.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/modules/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "environment/mamba_build/mamba_ssm/modules/mamba_simple.py",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/mamba_build/mamba_ssm/modules/mamba_simple.py",
+      "sha256": "2a0e9eddb5f4078e77c80ad62c40e0d2c208c12d7aa99b69cdcbabbe5b1673a0"
+    },
+    {
+      "path": "environment/build_adaptation.json",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/build_adaptation.json",
+      "sha256": "d556a131f11ef428ff51ecdd84fa401ee319963fbe08b21264305aef137e2ab8"
+    },
+    {
+      "path": "experiments/ucf101_gm/config.json",
+      "source": "/remote-home/datasets/UCF101-feature-memory-runs/GM_ddp3_batch48_20261024T144614Z/training/config.json",
+      "sha256": "3adca3e17c4a9121ce5d0c7e5149f97b0bbb52783e62c671a70f1ecbc36c1e19"
+    },
+    {
+      "path": "experiments/thu_chl_gm/config.json",
+      "source": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gm_ddp3_batch48_v1/training/config.json",
+      "sha256": "327a3563f79c401a2f23cd8d53b37cd3cb02c6ed4acf022b6ba63d04c17ca085"
+    },
+    {
+      "path": "experiments/gesture_gm/config.json",
+      "source": "/remote-home/datasets/DVSGesture-prepared/gm_ddp2_batch64_v1/training/config.json",
+      "sha256": "d956829371629f07288569281d88a4374d05243822b21f99140b5eab7a9d2978"
+    }
+  ]
+}

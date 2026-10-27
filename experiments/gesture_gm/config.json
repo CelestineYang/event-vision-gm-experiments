@@ -1,0 +1,122 @@
+{
+  "identity": {
+    "architecture": "feature_gate_memory_v1",
+    "config": {
+      "architecture": "feature_gate_memory_v1",
+      "mode": "GM",
+      "seed": 0,
+      "epochs": 50,
+      "num_classes": 10,
+      "store": "/remote-home/datasets/DVSGesture-prepared/gesture_prepared_v2",
+      "point_count": 1024,
+      "point_sensor_width": 128,
+      "point_sensor_height": 128,
+      "video_batch_size_per_gpu": 32,
+      "tbptt_steps": 4,
+      "workers": 2,
+      "optimizer": "AdamW",
+      "lr_point": 1e-05,
+      "lr_existing_fusion": 5e-05,
+      "lr_new_modules": 0.0001,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1,
+      "point_aux_weight": 0.5,
+      "precision": "FP32",
+      "scheduler": null,
+      "early_stopping": false,
+      "freeze_image_backbones": true,
+      "freeze_point_bn_running_stats": true,
+      "selection_protocol": "original_test_as_val",
+      "independent_test": false,
+      "selection_metric": "video_top1",
+      "dataset": "DVS128Gesture",
+      "point_checkpoint": "/remote-home/datasets/DVSGesture-prepared/eventmamba_pretrained/uploaded_20261027/best_checkpoint(1).pth",
+      "point_sha256": "d68306ac71577aaa4b1a8e36f0916f5da37affe670a3945ddf126d3fdad8ec89",
+      "image_checkpoints": {
+        "cstr3": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/cstr3/best_loss.pt",
+        "xt_p": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/xt_p/best_loss.pt",
+        "ty_p": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/ty_p/best_loss.pt"
+      },
+      "image_sha256": {
+        "cstr3": "b369ced06d9155eeaf22ad6a6bac0ad91dbccc6a48f6dfa923582bf5bca706de",
+        "xt_p": "4db5885c77c20e2db072a73a19b7fee4edb420c5ee7edc0756201a0c366af889",
+        "ty_p": "dd196d814b768f105fa829186496f77aa03c5bc3b1856eceb7dea51364bab24c"
+      },
+      "point_protocol": "shared augmented events -> 1024 sorted points; no radius filter; sampled float32 t minmax, x/128,y/128",
+      "test_windows": "all 6959 nonempty manifest windows from 264 annotated segments",
+      "ddp_world_size": 2,
+      "allocator_fraction": 0.46,
+      "point_head_policy": "reset_final_layer_for_official_actions_1_to_10"
+    },
+    "code": {
+      "train_gesture_gm.py": "ed7512e25a2486ec6baef2aac7dcc6669a0b35f41491cccf3f1699c706a6fdfe",
+      "gesture_sequence_dataset.py": "b73b9286176d9d53334381d81b94972e93417f385fab519aa2fa7f5f27b4d60c",
+      "gesture_fusion.py": "7e4cabf79e82c1efe1b7db535fc85e0ecbd5a3d27376da0900f7b32da4ff07a4",
+      "gesture_eventmamba_pretrained.py": "656000f7587b51f2cb1723091f77306f6f02ad137da7dd45d20352cb06b02bb5",
+      "gesture_eventmamba_model.py": "f62c353c1b653d4e81496e0ade3d22f99a20e8a951f733becbe56b25248d71aa",
+      "eventmamba_v2_layers.py": "d94873e429ea18d42f7f36b762120b8df7a9e5a455cb839ff6e86dcb7fed18a3",
+      "thu_chl_render.py": "55b0fc23bdfd9d797d78fedb4d224ad5855d56bec15288cebe0318d78ad5fb48",
+      "gcstr_feature_memory_fusion.py": "2b60d1315364c684e5e5cd76e78876782909b2d33d5cdba106cf5538492fba93",
+      "gcstr_video_sequence_dataset.py": "dfc57068d95b0e1b1076c5bb010681ea23c5507eb82a02b686686277c5f38381",
+      "gcstr_secnet_fusion.py": "55ff121257ff78075d9705f6fad0e035fa221c958ef6e81f9fa88665e092d33b",
+      "gcstr_eventmamba_fusion.py": "349f98e2bf430930ff60fa6654006f997ed1fed0ee0f5cafada50087a3d70e25",
+      "gcstr_representations.py": "1d08ed931ed596b6298267a6ac3063e6a6661690182b5978abc76e5fee2c9094",
+      "gcstr_models.py": "04b96465ae2d8f35155bfe7954f5ed278e3b7cfc9618e7ccbeb7fd8cddabc2a3"
+    },
+    "data": {
+      "config.json": "87bfd81100899d7b2c07e22ecdaae92a91e3da660e43870d5ff6260b182aa7e0",
+      "samples.json": "5a8cb439980c559cff13a5021520034ad74408501b57fa9fa91b85266b6be9bd",
+      "train_windows.jsonl": "721e7dd15f747f17b25e1d0218d6ff3c01672237b33e4939ecc22cfeb097d796",
+      "test_windows.jsonl": "55b627f298a523da18ceaa45eb4687ac16907ef7c124f68f547481e8259c8368"
+    },
+    "source": {
+      "initialization": "independent pretrained branches; random fusion; zero residual gate/memory",
+      "point": {
+        "checkpoint": "/remote-home/datasets/DVSGesture-prepared/eventmamba_pretrained/uploaded_20261027/best_checkpoint(1).pth",
+        "architecture": "EventMamba V2 Gesture",
+        "embedding_channels": 24,
+        "stage_channels": [
+          48,
+          96,
+          192
+        ],
+        "groups": [
+          512,
+          256,
+          128
+        ],
+        "neighbors": [
+          24,
+          24,
+          24
+        ],
+        "epoch_zero_based": 69,
+        "checkpoint_acc": 0.9962121212121212,
+        "target_head_policy": "reset_final_layer_for_official_actions_1_to_10",
+        "discarded_source_head": true,
+        "target_labels": "official actions 1..10; exclude other (11)",
+        "source_label_evidence": "SpikingJelly 0.0.0.0.14 lexicographic folders and Train-only prediction audit"
+      },
+      "images": {
+        "cstr3": {
+          "path": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/cstr3/best_loss.pt",
+          "epoch": 11
+        },
+        "xt_p": {
+          "path": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/xt_p/best_loss.pt",
+          "epoch": 32
+        },
+        "ty_p": {
+          "path": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/ty_p/best_loss.pt",
+          "epoch": 39
+        }
+      }
+    },
+    "ddp_code": "b5dee75f498a585428fa427558884d07da5532e2949ee083c284a27f8980fe76"
+  },
+  "global_video_batch": 64,
+  "smoke": false,
+  "migration": null,
+  "migration_rng": "independent rank seeds; not bitwise single-GPU continuation",
+  "historical_best_directory": null
+}

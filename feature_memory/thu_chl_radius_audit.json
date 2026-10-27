@@ -1,0 +1,23 @@
+[
+  {
+    "sample_id": "A54P25C1-2021_11_08_11_34_37",
+    "window_id": 0,
+    "raw_events": 9276,
+    "filtered_events": 5010,
+    "filter_indices_exact": true
+  },
+  {
+    "sample_id": "A54P25C1-2021_11_08_11_34_37",
+    "window_id": 3,
+    "raw_events": 3348,
+    "filtered_events": 96,
+    "filter_indices_exact": true
+  },
+  {
+    "sample_id": "A36P23C0-2021_11_08_09_25_40",
+    "window_id": 0,
+    "raw_events": 13323,
+    "filtered_events": 6034,
+    "filter_indices_exact": true
+  }
+]

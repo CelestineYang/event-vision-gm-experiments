@@ -1,0 +1,43 @@
+{
+  "train_count": 14773,
+  "duration_seconds_quantiles": {
+    "min": 1.119987,
+    "p1": 1.73991964,
+    "p5": 2.1599725999999997,
+    "p25": 2.969889,
+    "median": 3.729799,
+    "p75": 4.689967,
+    "p95": 6.7199355999999995,
+    "p99": 9.365590360000013,
+    "max": 37.869744
+  },
+  "event_count_quantiles": [
+    21008.0,
+    75250.4,
+    316818.0,
+    3226948.0,
+    13381216.0
+  ],
+  "estimated_cache_gib_packed16": 185.84108018875122,
+  "npz_gib": 38.190986157394946,
+  "0.5s": {
+    "short_recordings": 0,
+    "train_windows": 229023,
+    "median_windows": 14.0
+  },
+  "1.0s": {
+    "short_recordings": 0,
+    "train_windows": 110841,
+    "median_windows": 7.0
+  },
+  "1.5s": {
+    "short_recordings": 20,
+    "train_windows": 71389,
+    "median_windows": 4.0
+  },
+  "2.0s": {
+    "short_recordings": 451,
+    "train_windows": 51703,
+    "median_windows": 3.0
+  }
+}

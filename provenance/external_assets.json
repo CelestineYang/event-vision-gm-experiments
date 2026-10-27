@@ -1,0 +1,75 @@
+{
+  "ucf101_gm": {
+    "store": "/remote-home/datasets/Joind-dataset for Action Recognition/ucf101_feature_memory_migration_20261024_v1/data/event_store",
+    "experiment": "/remote-home/datasets/Joind-dataset for Action Recognition/ucf101_feature_memory_migration_20261024_v1/data/experiment",
+    "source_checkpoint": "/remote-home/datasets/Joind-dataset for Action Recognition/ucf101_feature_memory_migration_20261024_v1/weights/epoch_040.pt",
+    "source_sha256": "616c07083ba01df1f9cefc6b27c192775247e18066cf58f709a2753ca590eb62",
+    "metadata_sha256": {}
+  },
+  "thu_chl_gm": {
+    "store": "/remote-home/datasets/THU-EACT-50-CHL-prepared/chl_prepared",
+    "point_checkpoint": "/remote-home/yanglansong/feature_memory/thu_best_checkpoint.pth",
+    "point_sha256": "5a7f82e8f2e1d0e855d1a84690d41b035ff0677a9b97943ee2ecac83a94b87e7",
+    "image_checkpoints": {
+      "cstr3": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/cstr3/best_loss.pt",
+      "xt_p": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/xt_p/best_loss.pt",
+      "ty_p": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/ty_p/best_loss.pt"
+    },
+    "image_sha256": {
+      "cstr3": "0bdb49d7c4c409df84b688373e47e55eeb429c514df088b2b802e8497bf8dce3",
+      "xt_p": "4c5e6e8fc04a1018a49c30be8b1da44b88ee0c863c6d8e9f3e3f6d2e7c863b3a",
+      "ty_p": "13e246765e2f55de76e9d807d501fb6c13adb13597b5fae10237c80232b627fd"
+    },
+    "metadata_sha256": {
+      "config.json": "42d6472a5867df0ce9c6d26040d8c90e2dfd2520058407287e25690132c632a7",
+      "samples.json": "db7e9e2fb12a7b4420cf08b623bbce63d31597f3fb75cf7cf00d98e7d8783901",
+      "train_windows.jsonl": "dd92ded66d0053c2fe202fa23d0a98cf880954fbf1316f32b1bf2feebed11a8e",
+      "test_windows.jsonl": "395ff3b1c71885660de45f31dc48c8d0b77bfda76af9fa45626859d397033890",
+      "status.json": "3947cf23aff3d036c3961ce98bceef39fd682d3894a579bf97c47589505bb0f9"
+    }
+  },
+  "gesture_gm": {
+    "store": "/remote-home/datasets/DVSGesture-prepared/gesture_prepared_v2",
+    "point_checkpoint": "/remote-home/datasets/DVSGesture-prepared/eventmamba_pretrained/uploaded_20261027/best_checkpoint(1).pth",
+    "point_sha256": "d68306ac71577aaa4b1a8e36f0916f5da37affe670a3945ddf126d3fdad8ec89",
+    "image_checkpoints": {
+      "cstr3": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/cstr3/best_loss.pt",
+      "xt_p": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/xt_p/best_loss.pt",
+      "ty_p": "/remote-home/datasets/DVSGesture-prepared/gcstr_run1/ty_p/best_loss.pt"
+    },
+    "image_sha256": {
+      "cstr3": "b369ced06d9155eeaf22ad6a6bac0ad91dbccc6a48f6dfa923582bf5bca706de",
+      "xt_p": "4db5885c77c20e2db072a73a19b7fee4edb420c5ee7edc0756201a0c366af889",
+      "ty_p": "dd196d814b768f105fa829186496f77aa03c5bc3b1856eceb7dea51364bab24c"
+    },
+    "metadata_sha256": {
+      "config.json": "87bfd81100899d7b2c07e22ecdaae92a91e3da660e43870d5ff6260b182aa7e0",
+      "samples.json": "5a8cb439980c559cff13a5021520034ad74408501b57fa9fa91b85266b6be9bd",
+      "train_windows.jsonl": "721e7dd15f747f17b25e1d0218d6ff3c01672237b33e4939ecc22cfeb097d796",
+      "test_windows.jsonl": "55b627f298a523da18ceaa45eb4687ac16907ef7c124f68f547481e8259c8368",
+      "status.json": "3947cf23aff3d036c3961ce98bceef39fd682d3894a579bf97c47589505bb0f9"
+    }
+  },
+  "dailyaction": {
+    "store": "/remote-home/datasets/DailyAction-DVS-prepared/daily_prepared",
+    "metadata_sha256": {
+      "config.json": "ed774eeece60122bafe839bc198752ea9d04c315dcd340061474c460e552323e",
+      "samples.json": "af0b22fbf4d3df806c83d3ebb8999e968f7d2a5f9f22846c1e2ab172c7d4861c",
+      "train_windows.jsonl": "fca41dfba5c8752b4946f6e0429b5e8db66245c6682567878f14b7cdcd912157",
+      "test_windows.jsonl": "a25b176b7fd663517378c4cac6e3ea1dfd3025b6d49514cf52609ddb2877fcc6",
+      "status.json": "3947cf23aff3d036c3961ce98bceef39fd682d3894a579bf97c47589505bb0f9"
+    },
+    "complete_test_manifest": "/remote-home/datasets/DailyAction-DVS-prepared/gcstr_run1_test288/test_windows.jsonl"
+  },
+  "dailydvs200": {
+    "store": "/remote-home/datasets/DailyDVS-200-prepared/prepared_v1",
+    "metadata_sha256": {
+      "config.json": "98a1fce96587326ca83232125ac6149ad5b318cb1a180cd2ef9c8a906962a268",
+      "samples.json": "210f88d2ee06db5ebd95baacacb760099546cdec2d301e3dc60f73a74eca40a7",
+      "train_windows.jsonl": "9051d98374ba9ddd865f8ef54ea94b84282c4b9415cb38a4266410992b1bc549",
+      "test_windows.jsonl": "90ff94bc8d94a3afd6542fa5a7d20bf717ed6aa95627875e840a6999f59d8b26",
+      "status.json": "122ad2d5889809a7a60dbbf2c92f98415403d53a44e8e81a5c6efdcb139884c3"
+    },
+    "external_event_root": "/remote-home/datasets/Joind-dataset for Action Recognition/DailyDvs-200/processed"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "identity": {
+    "architecture": "feature_gate_memory_v1",
+    "config": {
+      "architecture": "feature_gate_memory_v1",
+      "mode": "GM",
+      "seed": 0,
+      "epochs": 50,
+      "num_classes": 50,
+      "store": "/remote-home/datasets/THU-EACT-50-CHL-prepared/chl_prepared",
+      "point_count": 2048,
+      "point_sensor_width": 346,
+      "point_sensor_height": 260,
+      "video_batch_size_per_gpu": 16,
+      "tbptt_steps": 4,
+      "workers": 2,
+      "optimizer": "AdamW",
+      "lr_point": 1e-05,
+      "lr_existing_fusion": 5e-05,
+      "lr_new_modules": 0.0001,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1,
+      "point_aux_weight": 0.5,
+      "precision": "FP32",
+      "scheduler": null,
+      "early_stopping": false,
+      "freeze_image_backbones": true,
+      "freeze_point_bn_running_stats": true,
+      "selection_protocol": "original_test_as_val",
+      "independent_test": false,
+      "selection_metric": "video_nll",
+      "dataset": "THU-EACT-50-CHL",
+      "point_checkpoint": "/remote-home/yanglansong/feature_memory/thu_best_checkpoint.pth",
+      "point_sha256": "5a7f82e8f2e1d0e855d1a84690d41b035ff0677a9b97943ee2ecac83a94b87e7",
+      "image_checkpoints": {
+        "cstr3": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/cstr3/best_loss.pt",
+        "xt_p": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/xt_p/best_loss.pt",
+        "ty_p": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/ty_p/best_loss.pt"
+      },
+      "image_sha256": {
+        "cstr3": "0bdb49d7c4c409df84b688373e47e55eeb429c514df088b2b802e8497bf8dce3",
+        "xt_p": "4c5e6e8fc04a1018a49c30be8b1da44b88ee0c863c6d8e9f3e3f6d2e7c863b3a",
+        "ty_p": "13e246765e2f55de76e9d807d501fb6c13adb13597b5fae10237c80232b627fd"
+      },
+      "point_protocol": "shared augmented events -> radius .01 nb5 -> 2048 sorted points; raw fallback if <100 filtered",
+      "test_windows": "all nonempty manifest windows, including previously invalid point windows",
+      "ddp_world_size": 3,
+      "allocator_fraction": 0.46
+    },
+    "code": {
+      "train_thu_chl_gm.py": "212bd080e43c43dbf287ee8326f59880db1588dc314e1039d86978e71e022f1b",
+      "thu_chl_sequence_dataset.py": "163d7fd4781146c0f8676976da359447f7499f6a069af25f13853505f615cef6",
+      "thu_chl_fusion.py": "c84de0fbe46b52644593a810e5b9230937baad3d81dd5bb1f5d33a10d58d8f57",
+      "eventmamba_v1_pretrained.py": "035e13feb35c95f920cdcf0777f786629deaab5adbdb0d86e0015cc523b9f239",
+      "eventmamba_v1_model.py": "902e747fe1223fa3a731712671215d51db9e126b898c8d13b57003d418d095cd",
+      "eventmamba_v1_layers.py": "a607c9cddc7f65c7a1bfed51157a70f47cca93809d2f93ef6b01628d8bb08b2a",
+      "thu_chl_render.py": "55b0fc23bdfd9d797d78fedb4d224ad5855d56bec15288cebe0318d78ad5fb48",
+      "gcstr_feature_memory_fusion.py": "2b60d1315364c684e5e5cd76e78876782909b2d33d5cdba106cf5538492fba93",
+      "gcstr_video_sequence_dataset.py": "dfc57068d95b0e1b1076c5bb010681ea23c5507eb82a02b686686277c5f38381",
+      "gcstr_secnet_fusion.py": "55ff121257ff78075d9705f6fad0e035fa221c958ef6e81f9fa88665e092d33b",
+      "gcstr_eventmamba_fusion.py": "349f98e2bf430930ff60fa6654006f997ed1fed0ee0f5cafada50087a3d70e25",
+      "gcstr_representations.py": "1d08ed931ed596b6298267a6ac3063e6a6661690182b5978abc76e5fee2c9094",
+      "gcstr_models.py": "04b96465ae2d8f35155bfe7954f5ed278e3b7cfc9618e7ccbeb7fd8cddabc2a3"
+    },
+    "data": {
+      "config.json": "42d6472a5867df0ce9c6d26040d8c90e2dfd2520058407287e25690132c632a7",
+      "samples.json": "db7e9e2fb12a7b4420cf08b623bbce63d31597f3fb75cf7cf00d98e7d8783901",
+      "train_windows.jsonl": "dd92ded66d0053c2fe202fa23d0a98cf880954fbf1316f32b1bf2feebed11a8e",
+      "test_windows.jsonl": "395ff3b1c71885660de45f31dc48c8d0b77bfda76af9fa45626859d397033890"
+    },
+    "source": {
+      "initialization": "independent pretrained branches; random fusion; zero residual gate/memory",
+      "point": {
+        "checkpoint": "/remote-home/yanglansong/feature_memory/thu_best_checkpoint.pth",
+        "architecture": "EventMamba V1 THU",
+        "groups": [
+          1024,
+          512,
+          256
+        ],
+        "neighbors": 24,
+        "knn": "coordinate",
+        "epoch_zero_based": 156,
+        "checkpoint_window_accuracy": 47.917,
+        "strict_load": true
+      },
+      "images": {
+        "cstr3": {
+          "path": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/cstr3/best_loss.pt",
+          "epoch": 21
+        },
+        "xt_p": {
+          "path": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/xt_p/best_loss.pt",
+          "epoch": 18
+        },
+        "ty_p": {
+          "path": "/remote-home/datasets/THU-EACT-50-CHL-prepared/gcstr_run1/ty_p/best_loss.pt",
+          "epoch": 20
+        }
+      }
+    },
+    "ddp_code": "f9af7e4e4197eb3520df125cfaa279538d1f6ba70451943e2bd3733ee28e92de"
+  },
+  "global_video_batch": 48,
+  "smoke": false,
+  "migration": null,
+  "migration_rng": "independent rank seeds; not bitwise single-GPU continuation",
+  "historical_best_directory": null
+}

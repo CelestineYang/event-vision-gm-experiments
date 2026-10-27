@@ -1,0 +1,198 @@
+{
+  "THU": {
+    "saved_metrics": {
+      "cstr3": {
+        "epoch": 21,
+        "videos": 544,
+        "top1": 0.6875,
+        "metrics_match": true
+      },
+      "xt_p": {
+        "epoch": 18,
+        "videos": 544,
+        "top1": 0.5238970588235294,
+        "metrics_match": true
+      },
+      "ty_p": {
+        "epoch": 20,
+        "videos": 544,
+        "top1": 0.7702205882352942,
+        "metrics_match": true
+      }
+    },
+    "real_inference": {
+      "view": "ty_p",
+      "videos": 8,
+      "windows": 32,
+      "predictions_match": true,
+      "model_buffers_unchanged": true,
+      "independent_soft_vote_match": true,
+      "label_does_not_change_input": true
+    },
+    "trained_source_matches": {
+      "train_gcstr.py": [
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/train_gcstr.py"
+      ],
+      "render_frames.py": [
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/render_frames.py"
+      ],
+      "gcstr_models.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_models.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_models.py"
+      ],
+      "gcstr_augmentation.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_augmentation.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_augmentation.py"
+      ],
+      "gcstr_representations.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_representations.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_representations.py"
+      ]
+    },
+    "fixed_window_vs_event_extent_projection_difference": {
+      "cstr3": {
+        "max_abs": 3.185681998729706e-05,
+        "mean_abs": 1.1146606482270727e-07
+      },
+      "xt_p": {
+        "max_abs": 0.1111111044883728,
+        "mean_abs": 8.574370440328494e-05
+      },
+      "ty_p": {
+        "max_abs": 0.14798207581043243,
+        "mean_abs": 8.932186756283045e-05
+      }
+    }
+  },
+  "Gesture": {
+    "saved_metrics": {
+      "cstr3": {
+        "epoch": 11,
+        "videos": 264,
+        "top1": 0.9810606060606061,
+        "metrics_match": true
+      },
+      "xt_p": {
+        "epoch": 32,
+        "videos": 264,
+        "top1": 0.9886363636363636,
+        "metrics_match": true
+      },
+      "ty_p": {
+        "epoch": 39,
+        "videos": 264,
+        "top1": 0.9772727272727273,
+        "metrics_match": true
+      }
+    },
+    "real_inference": {
+      "view": "xt_p",
+      "videos": 10,
+      "windows": 256,
+      "predictions_match": true,
+      "model_buffers_unchanged": true,
+      "independent_soft_vote_match": true,
+      "label_does_not_change_input": true
+    },
+    "trained_source_matches": {
+      "train_gcstr.py": [
+        "/remote-home/yanglansong/thu_preprocessing/train_gcstr.py"
+      ],
+      "render_frames.py": [
+        "/remote-home/yanglansong/thu_preprocessing/render_frames.py"
+      ],
+      "gcstr_models.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_models.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_models.py"
+      ],
+      "gcstr_augmentation.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_augmentation.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_augmentation.py"
+      ],
+      "gcstr_representations.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_representations.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_representations.py"
+      ]
+    },
+    "fixed_window_vs_event_extent_projection_difference": {
+      "cstr3": {
+        "max_abs": 8.542835712432861e-05,
+        "mean_abs": 1.6282074284390546e-06
+      },
+      "xt_p": {
+        "max_abs": 0.5817773938179016,
+        "mean_abs": 0.0019649637397378683
+      },
+      "ty_p": {
+        "max_abs": 0.46162134408950806,
+        "mean_abs": 0.0029610239434987307
+      }
+    }
+  },
+  "Daily": {
+    "saved_metrics": {
+      "cstr3": {
+        "epoch": 38,
+        "videos": 280,
+        "top1": 0.9892857142857143,
+        "metrics_match": true
+      },
+      "xt_p": {
+        "epoch": 40,
+        "videos": 280,
+        "top1": 0.9964285714285714,
+        "metrics_match": true
+      },
+      "ty_p": {
+        "epoch": 44,
+        "videos": 280,
+        "top1": 1.0,
+        "metrics_match": true
+      }
+    },
+    "real_inference": {
+      "view": "ty_p",
+      "videos": 12,
+      "windows": 30,
+      "predictions_match": true,
+      "model_buffers_unchanged": true,
+      "independent_soft_vote_match": true,
+      "label_does_not_change_input": true
+    },
+    "trained_source_matches": {
+      "train_gcstr.py": [
+        "/remote-home/yanglansong/thu_preprocessing/train_gcstr.py"
+      ],
+      "render_frames.py": [
+        "/remote-home/yanglansong/thu_preprocessing/render_frames.py"
+      ],
+      "gcstr_models.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_models.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_models.py"
+      ],
+      "gcstr_augmentation.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_augmentation.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_augmentation.py"
+      ],
+      "gcstr_representations.py": [
+        "/remote-home/yanglansong/thu_preprocessing/gcstr_representations.py",
+        "/remote-home/yanglansong/thu_preprocessing/legacy_chl_run1/gcstr_representations.py"
+      ]
+    },
+    "fixed_window_vs_event_extent_projection_difference": {
+      "cstr3": {
+        "max_abs": 0.09762629121541977,
+        "mean_abs": 0.0020948792807757854
+      },
+      "xt_p": {
+        "max_abs": 0.3269805908203125,
+        "mean_abs": 0.0007113029132597148
+      },
+      "ty_p": {
+        "max_abs": 0.33818697929382324,
+        "mean_abs": 0.001767992158420384
+      }
+    }
+  },
+  "official_mean_function_match": true
+}

@@ -1,0 +1,229 @@
+{
+  "train_recordings": 49,
+  "train_windows": 270,
+  "tbptt_steps": 4,
+  "per_gpu_video_batch": 16,
+  "shared_with_existing_ucf": true,
+  "single": {
+    "status": "complete",
+    "world": 1,
+    "per_gpu_batch": 16,
+    "global_batch": 16,
+    "windows": 270,
+    "videos": 49,
+    "reports": [
+      {
+        "repeat": 0,
+        "metrics": {
+          "main": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 3.821194761986044,
+            "window_top1": 0.0962962962962963,
+            "window_top5": 0.23703703703703705,
+            "video_top1": 0.061224489795918366,
+            "video_top5": 0.24489795918367346,
+            "video_nll": 3.8326941377153876,
+            "video_brier": 0.9762367679848107,
+            "video_ece_15": 0.03109379538670092
+          },
+          "point": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 1.1601389916023945,
+            "window_top1": 0.8666666666666667,
+            "window_top5": 0.9777777777777777,
+            "video_top1": 1.0,
+            "video_top5": 1.0,
+            "video_nll": 0.9760224470637283,
+            "video_brier": 0.3759839694369226,
+            "video_ece_15": 0.5755486981516916
+          },
+          "seconds": 46.3611902333796,
+          "windows_per_second": 5.8238366754786774,
+          "steps": 8
+        },
+        "memory": [
+          {
+            "rank": 0,
+            "seconds": 46.36696867272258,
+            "allocated_mib": 8641.78564453125,
+            "reserved_mib": 9210.0,
+            "budget_mib": 11097.126249313354
+          }
+        ],
+        "wall_seconds": 46.36696867272258,
+        "windows_per_second": 5.823110885375594
+      },
+      {
+        "repeat": 1,
+        "metrics": {
+          "main": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 3.481743159398,
+            "window_top1": 0.1814814814814815,
+            "window_top5": 0.4925925925925926,
+            "video_top1": 0.16326530612244897,
+            "video_top5": 0.4897959183673469,
+            "video_nll": 3.5024295225675575,
+            "video_brier": 0.9542136065338076,
+            "video_ece_15": 0.10312743823800855
+          },
+          "point": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 0.9742873609139577,
+            "window_top1": 0.8962962962962963,
+            "window_top5": 0.9777777777777777,
+            "video_top1": 0.9591836734693877,
+            "video_top5": 1.0,
+            "video_nll": 0.8153009740950004,
+            "video_brier": 0.3034778621889548,
+            "video_ece_15": 0.47778310459404966
+          },
+          "seconds": 47.21289677545428,
+          "windows_per_second": 5.718776403068991,
+          "steps": 8
+        },
+        "memory": [
+          {
+            "rank": 0,
+            "seconds": 47.21806114912033,
+            "allocated_mib": 8641.31689453125,
+            "reserved_mib": 9210.0,
+            "budget_mib": 11097.126249313354
+          }
+        ],
+        "wall_seconds": 47.21806114912033,
+        "windows_per_second": 5.718150924225953
+      }
+    ]
+  },
+  "ddp3": {
+    "status": "complete",
+    "world": 3,
+    "per_gpu_batch": 16,
+    "global_batch": 48,
+    "windows": 270,
+    "videos": 49,
+    "reports": [
+      {
+        "repeat": 0,
+        "metrics": {
+          "main": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 3.8688696162840994,
+            "window_top1": 0.03333333333333333,
+            "window_top5": 0.1259259259259259,
+            "video_top1": 0.02040816326530612,
+            "video_top5": 0.12244897959183673,
+            "video_nll": 3.874019948050992,
+            "video_brier": 0.9784411641852316,
+            "video_ece_15": 0.008251973272946689
+          },
+          "point": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 1.2242772694071293,
+            "window_top1": 0.825925925925926,
+            "window_top5": 0.9740740740740741,
+            "video_top1": 1.0,
+            "video_top5": 1.0,
+            "video_nll": 1.0242104167915933,
+            "video_brier": 0.39334095236169114,
+            "video_ece_15": 0.594142916571542
+          },
+          "seconds": 26.27711360529065,
+          "windows_per_second": 10.27510114146015,
+          "steps": 4
+        },
+        "memory": [
+          {
+            "rank": 0,
+            "seconds": 26.28215015307069,
+            "allocated_mib": 8611.7646484375,
+            "reserved_mib": 9172.0,
+            "budget_mib": 10946.625
+          },
+          {
+            "rank": 1,
+            "seconds": 26.2815994694829,
+            "allocated_mib": 8611.7646484375,
+            "reserved_mib": 9172.0,
+            "budget_mib": 10926.625
+          },
+          {
+            "rank": 2,
+            "seconds": 26.265779715031385,
+            "allocated_mib": 8611.7646484375,
+            "reserved_mib": 9172.0,
+            "budget_mib": 11097.126249313354
+          }
+        ],
+        "wall_seconds": 26.28215015307069,
+        "windows_per_second": 10.273132084988656
+      },
+      {
+        "repeat": 1,
+        "metrics": {
+          "main": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 3.6787583873207605,
+            "window_top1": 0.12962962962962962,
+            "window_top5": 0.3925925925925926,
+            "video_top1": 0.12244897959183673,
+            "video_top5": 0.3877551020408163,
+            "video_nll": 3.6887438775337924,
+            "video_brier": 0.9687668299657531,
+            "video_ece_15": 0.08340185530954072
+          },
+          "point": {
+            "windows": 270,
+            "videos": 49,
+            "window_ce": 1.0808609301519132,
+            "window_top1": 0.8962962962962963,
+            "window_top5": 0.9703703703703703,
+            "video_top1": 1.0,
+            "video_top5": 1.0,
+            "video_nll": 0.9037512003758279,
+            "video_brier": 0.347333830447033,
+            "video_ece_15": 0.5554851717260296
+          },
+          "seconds": 24.560365095734596,
+          "windows_per_second": 10.993321921215697,
+          "steps": 4
+        },
+        "memory": [
+          {
+            "rank": 0,
+            "seconds": 24.56556185334921,
+            "allocated_mib": 8640.0546875,
+            "reserved_mib": 9204.0,
+            "budget_mib": 10946.625
+          },
+          {
+            "rank": 1,
+            "seconds": 24.563371684402227,
+            "allocated_mib": 8640.0546875,
+            "reserved_mib": 9204.0,
+            "budget_mib": 10926.625
+          },
+          {
+            "rank": 2,
+            "seconds": 24.561763681471348,
+            "allocated_mib": 8640.0546875,
+            "reserved_mib": 9204.0,
+            "budget_mib": 11097.126249313354
+          }
+        ],
+        "wall_seconds": 24.56556185334921,
+        "windows_per_second": 10.990996322894558
+      }
+    ]
+  },
+  "second_pass_speedup": 1.922124209126637,
+  "formal_training_started": false
+}

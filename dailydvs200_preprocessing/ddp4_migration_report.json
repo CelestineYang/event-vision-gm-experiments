@@ -1,0 +1,107 @@
+{
+  "single": {
+    "world": 1,
+    "global_batch": 128,
+    "workers_per_rank": 4,
+    "total_windows": 2048,
+    "warmup_batches": 2,
+    "measured_windows": 1792,
+    "seconds": 266.20965691283345,
+    "ranks": [
+      {
+        "rank": 0,
+        "steady_seconds": 266.20965691283345,
+        "allocated_mib": 3272.74951171875,
+        "reserved_mib": 5682.0
+      }
+    ],
+    "batch_seconds_rank0": [
+      77.54851433634758,
+      0.28688446059823036,
+      24.798020020127296,
+      0.2856600508093834,
+      92.25517011061311,
+      0.2833876833319664,
+      0.28417008370161057,
+      0.2843725457787514,
+      79.1373156644404,
+      0.28483809903264046,
+      0.28359922394156456,
+      0.2981853112578392,
+      53.66168221086264,
+      1.7660512700676918,
+      0.29481302946805954,
+      12.29239160940051
+    ],
+    "windows_per_second": 6.731536416752773
+  },
+  "four": {
+    "world": 4,
+    "global_batch": 128,
+    "workers_per_rank": 2,
+    "total_windows": 2048,
+    "warmup_batches": 2,
+    "measured_windows": 1792,
+    "seconds": 57.22024470567703,
+    "ranks": [
+      {
+        "rank": 0,
+        "steady_seconds": 57.2193485237658,
+        "allocated_mib": 1343.87060546875,
+        "reserved_mib": 1850.0
+      },
+      {
+        "rank": 1,
+        "steady_seconds": 57.22018164396286,
+        "allocated_mib": 1343.87060546875,
+        "reserved_mib": 1850.0
+      },
+      {
+        "rank": 2,
+        "steady_seconds": 57.22024470567703,
+        "allocated_mib": 1343.87060546875,
+        "reserved_mib": 1850.0
+      },
+      {
+        "rank": 3,
+        "steady_seconds": 57.21909607946873,
+        "allocated_mib": 1343.87060546875,
+        "reserved_mib": 1850.0
+      }
+    ],
+    "batch_seconds_rank0": [
+      15.246124349534512,
+      0.7627756781876087,
+      6.6729466766119,
+      0.5760875418782234,
+      10.052870474755764,
+      0.4340631738305092,
+      4.655981212854385,
+      2.038930617272854,
+      10.331066507846117,
+      0.722337394952774,
+      8.523916389793158,
+      0.29788656905293465,
+      5.407447136938572,
+      0.35259203240275383,
+      6.504578582942486,
+      0.6486442126333714
+    ],
+    "windows_per_second": 31.317587144506025
+  },
+  "speedup": 4.652368375600844,
+  "caveat": "Short same-window benchmark with live training contention; worker total changes 4 to 8; not whole-epoch speedup guarantee",
+  "target_saved_epoch": 5,
+  "source": "/remote-home/datasets/DailyDVS-200-prepared/gcstr_run1",
+  "target": "/remote-home/datasets/DailyDVS-200-prepared/gcstr_run1_ddp4",
+  "preserved": [
+    "global batch 128",
+    "Adam state",
+    "three historical best checkpoints",
+    "data splits and full-event windows",
+    "learning rate 1e-4",
+    "50 total epochs"
+  ],
+  "tests": "4 training regression tests and 3 migration-validation tests passed",
+  "controller_pid": 206948
+}
